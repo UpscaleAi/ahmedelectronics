@@ -68,7 +68,7 @@ const Contact = () => {
           {/* Map */}
           <Card className="overflow-hidden bg-card h-[500px]">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16071314.41422433!2d19.372580687499994!3d10.448472375891793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b856c2d9c44fd%3A0x46daa84a3b5533af!2sAhmed%20Electronics!5e0!3m2!1sen!2set!4v1760467448571!5m2!1sen!2set"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d32280475.462131612!2d38.752463!3d9.019194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b856c2d9c44fd%3A0x46daa84a3b5533af!2sAhmed%20Electronics!5e0!3m2!1sen!2set!4v1760468246556!5m2!1sen!2set"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

@@ -7,7 +7,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-accent via-background to-background overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-accent via-background to-background overflow-hidden pt-16">
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full blur-3xl animate-pulse" />
