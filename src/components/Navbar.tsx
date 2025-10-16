@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-full.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +22,7 @@ const Navbar = () => {
     { id: "gallery", label: "Gallery" },
     { id: "videos", label: "Videos" },
     { id: "contact", label: "Contact" },
+    { id: "home", label: "Home" },
   ];
 
   return (
@@ -33,7 +34,7 @@ const Navbar = () => {
             onClick={scrollToTop}
             className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <img src={logo} alt="Ahmed Electronics Logo" className="h-12 w-auto" />
+            <img src={logo} alt="Ahmed Electronics Logo" className="h-10 w-auto md:h-12" />
           </button>
 
           {/* Desktop Navigation */}

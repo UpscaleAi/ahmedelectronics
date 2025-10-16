@@ -1,5 +1,6 @@
-import { Wind, Phone, Clock } from "lucide-react";
+import { Phone, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroAc from "@/assets/hero-ac.webp";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -16,11 +17,13 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-          {/* Icon */}
-          <div className="flex justify-center">
-            <div className="p-6 bg-gradient-to-br from-primary to-primary-glow rounded-full shadow-elegant">
-              <Wind className="w-16 h-16 text-primary-foreground" />
-            </div>
+          {/* Hero AC Image */}
+          <div className="flex justify-center mb-4">
+            <img 
+              src={heroAc} 
+              alt="Air Conditioning Service" 
+              className="w-full max-w-md md:max-w-lg h-auto object-contain rounded-lg shadow-elegant animate-float"
+            />
           </div>
 
           {/* Main heading */}
