@@ -10,7 +10,8 @@ const Contact = () => {
             Contact Us
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get in touch for professional air conditioning and electronics services in Addis Ababa.
+            Get in touch for professional air conditioning and electronics
+            services in Addis Ababa.
           </p>
         </div>
 
@@ -23,9 +24,11 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-1 text-card-foreground">Phone</h3>
-                  <a 
-                    href="tel:0908250804" 
+                  <h3 className="font-semibold text-lg mb-1 text-card-foreground">
+                    Phone
+                  </h3>
+                  <a
+                    href="tel:0908250804"
                     className="text-muted-foreground hover:text-primary transition-colors text-lg"
                   >
                     090 825 0804
@@ -40,7 +43,9 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-secondary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-1 text-card-foreground">Hours</h3>
+                  <h3 className="font-semibold text-lg mb-1 text-card-foreground">
+                    Hours
+                  </h3>
                   <p className="text-muted-foreground">Open 24 Hours</p>
                   <p className="text-sm text-muted-foreground mt-1">
                     Available for emergency services
@@ -55,10 +60,12 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-1 text-card-foreground">Address</h3>
+                  <h3 className="font-semibold text-lg mb-1 text-card-foreground">
+                    Address
+                  </h3>
                   <p className="text-muted-foreground">
-                    Addis Ababa 1000<br />
-                    Ethiopia
+                    Addis Ababa, Ethiopia
+                    <br />
                   </p>
                 </div>
               </div>
@@ -67,13 +74,13 @@ const Contact = () => {
 
           {/* Map */}
           <Card className="overflow-hidden bg-card h-[500px]">
-            <iframe 
+            <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d32280475.462131612!2d38.752463!3d9.019194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b856c2d9c44fd%3A0x46daa84a3b5533af!2sAhmed%20Electronics!5e0!3m2!1sen!2set!4v1760468246556!5m2!1sen!2set"
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen 
-              loading="lazy" 
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Ahmed Electronics Location"
               className="w-full h-full"

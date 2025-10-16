@@ -18,11 +18,11 @@ const Navbar = () => {
   };
 
   const navLinks = [
+    { id: "home", label: "Home" },
     { id: "services", label: "Services" },
     { id: "gallery", label: "Gallery" },
     { id: "videos", label: "Videos" },
     { id: "contact", label: "Contact" },
-    { id: "home", label: "Home" },
   ];
 
   return (
