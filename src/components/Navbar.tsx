@@ -7,6 +7,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (id: string) => {
+    if (id === "home") {
+      scrollToTop();
+      return;
+    }
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
