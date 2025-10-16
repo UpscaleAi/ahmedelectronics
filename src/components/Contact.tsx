@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import { MapPin, Phone, Clock, Mail, Send } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const Contact = () => {
@@ -29,6 +29,27 @@ const Contact = () => {
                   </h3>
                   <a
                     href="tel:0908250804"
+                    className="text-muted-foreground hover:text-primary transition-colors text-lg"
+                  >
+                    090 825 0804
+                  </a>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 hover:shadow-elegant transition-shadow bg-card">
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-primary/10 rounded-lg">
+                  <Send className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg mb-1 text-card-foreground">
+                    Telegram
+                  </h3>
+                  <a
+                    href="https://t.me/+251908250804"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors text-lg"
                   >
                     090 825 0804
