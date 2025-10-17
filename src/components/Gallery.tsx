@@ -7,6 +7,7 @@ import techWork2 from "@/assets/gallery/technician-work-2.webp";
 import washingMachines from "@/assets/gallery/washing-machines.webp";
 import washerRepair from "@/assets/gallery/washer-repair.webp";
 import mideaUnits from "@/assets/gallery/midea-units.webp";
+import a1 from "@/assets/gallery/a1.avif";
 
 const images = [
   { src: techWork1, alt: "Technician working on AC installation" },
@@ -16,6 +17,7 @@ const images = [
   { src: techWork2, alt: "Professional AC maintenance service" },
   { src: washingMachines, alt: "Washing machine repair services" },
   { src: washerRepair, alt: "Appliance repair expertise" },
+  { src: a1, alt: "Our crew at work" },
 ];
 
 const Gallery = () => {
